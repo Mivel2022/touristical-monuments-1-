@@ -1,0 +1,454 @@
+                                                /* Mivel Wageh Page1 html#MW2021 */
+html#MW2021 *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html#MW2021 body{
+    background: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    direction: rtl;
+}
+html#MW2021 .contener1{
+    width: 90%;
+    min-height: 100vh;
+    background: linear-gradient(gray, white);
+    border-radius:20px ;
+    line-height: 1.5;
+}
+html#MW2021 div{
+    padding-top:30px ;
+}
+html#MW2021 nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    margin: auto;
+    padding: 20px 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    direction: ltr;
+}
+html#MW2021 nav img{
+    width: 40px;
+    height: auto;
+    vertical-align: sub;
+}
+html#MW2021 nav h1 a#logo{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin: 0 10px;
+   /* font-family: "sofia"; /**/
+   font-family: "Raleway", sans-serif;
+}
+
+html#MW2021 nav ul li {
+    display: inline-block;
+    margin: 0 6px;
+}
+html#MW2021 nav ul li a.item{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 650;
+    text-align: center;
+    padding: 15px 15px;
+    border-radius: 20px;
+}
+html#MW2021 nav ul li a:hover{
+    background-color: #fff ;
+}
+html#MW2021 nav li #print{
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 0px;
+}
+html#MW2021 #content, html#MW2021 #head{
+   margin: 0 60px;
+}
+html#MW2021 #head{
+   margin: 30px;
+}
+html#MW2021 h1#header{
+    text-align: center;
+    font-size: 45px;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(255,255,255,1);
+    text-shadow: 1px 1px 3px black;
+}
+html#MW2021 video#videoOfGerman{
+    max-width: 100%;
+    height: auto;
+}
+html#MW2021 h2{
+    text-align: center;
+    text-decoration-line: underline;
+    color: rgb(10, 17,17);
+    text-shadow: 1px 1px 5px white;
+    font-style: italic;
+    font-size: 40px;
+}
+html#MW2021  p, html#MW2021 table{
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+    padding: 2px;
+}
+html#MW2021  tr, html#MW2021 td{
+    margin: 2px 0;
+    padding: 2px 0;
+}
+html#MW2021 figure figcaption{
+    font-size: small;
+    text-align: center;
+}
+html#MW2021 table a:link , html#MW2021 table a:visited{
+    text-decoration: none;
+    color: black;
+}
+html#MW2021 table a:hover, html#MW2021 table a:active{
+    color: grey;
+    text-decoration: underline;
+}
+html#MW2021 figure img{
+    width: auto;
+    height: 250px;
+    vertical-align: middle;
+    opacity: 0.8;
+    transition: opacity 1s;
+}
+html#MW2021 figure img:hover{
+    opacity: 1;
+}
+html#MW2021 .قصور , .كنايس {
+    width: 400px;
+    height: 200px;
+}
+html#MW2021 .foot{
+    color: white; 
+    text-align: center; 
+    font-family:'Courier New', Courier, monospace;
+}
+html#MW2021 .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 0px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+  }
+  
+  html#MW2021 .fa:hover {
+      color:rgb(207, 177, 8)
+  } 
+  html#MW2021 div.logofoot {
+      background-color: rgb(10, 10, 10);
+      margin: 0px 0px -10px 0px;
+  }
+  html#MW2021  div.label {
+      margin: 20px 0px 0px 0px;
+      color: white;
+      text-align: center;
+      padding: 20px;
+  }
+  html#MW2021  button.uparrow{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 20px 10px 20px 10px;
+   /* background-color: gray;*/
+    color: black;
+    font-weight: bolder;
+    margin: 30px 50% 50px 50%;
+    
+  }
+  html#MW2021  button.uparrow:hover{
+      background-color: black;
+      color: #fff;
+  }
+  html#MW2021 .controls{
+      width: 800px;
+      margin: auto;
+  }
+  html#MW2021 button.NP, html#MW2021 button.PP{
+      text-decoration: none;
+      border: 2px solid white;
+      border-radius: 20px;
+      font-size: 24px;
+      text-align: center;
+      cursor: pointer;
+      color: black;
+      padding: 20px 10px;
+      margin: 30px 15px 0px 0px;
+  }
+  html#MW2021 button.NP{
+      float: right;
+  }
+  html#MW2021 button.PP{
+      float: left;
+  }
+  html#MW2021 button.NP:hover, html#MW2021 button.PP:hover{
+      background-color: gray;
+      color: black;
+  }
+
+
+
+                                            /* Mivel Wageh Page2 html#MW2022 */
+html#MW2022 *{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+}
+html#MW2022 body{
+    background: linear-gradient(#111,#222);
+    /*height: 100vh;*/
+    width: 100%;
+    display: flex;
+    justify-content: center ; /*x-axis */
+    align-items: center; /*y-axis*/
+    overflow: auto;
+}
+
+html#MW2022 .contener2{
+    width: 80%;
+    min-height: 100nv;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    line-height: 1.5;
+}
+html#MW2022 nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+html#MW2022 nav .logo{
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+html#MW2022 nav ul li{
+    display: inline-block;
+    margin: 0 6px;
+}
+html#MW2022 nav ul li a{
+    text-decoration: none;
+    /*color: white;*/
+    font-size: 18px;
+    font-weight: bold;
+}
+html#MW2022 nav ul li a:hover{
+    color: rgb(128, 25, 174);
+}
+html#MW2022 .content{
+    direction: rtl;
+    margin: 0 60px;
+}
+html#MW2022 div.A{
+    border: 1.5px solid rgb(128, 25, 163);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+html#MW2022 div.B{
+    border:3px solid rgb(128, 25, 174);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 7px;
+}
+html#MW2022 h2, html#MW2022 h3{
+    color: rgb(240, 212, 240);
+}
+html#MW2022 a{
+    text-decoration: none;
+}
+html#MW2022 a.link{
+    color: rgb(240, 205, 240);
+    font-style: italic;
+}
+html#MW2022 h2, html#MW2022 a.link{
+    display: inline;
+}
+html#MW2022 a.pic:hover{
+    font-size: 20px;
+}
+html#MW2022 figure img{
+    max-width: 100%;
+    height: 250px;
+}
+html#MW2022 figure figcaption{
+    font-size: small;
+    text-align: center;
+}
+
+
+
+                                      /* Mariam Farid  html#mariamfarid */
+                                      html#mariamfarid audio{
+                                        margin-left: auto;
+                                        color:MidnightBlue;
+                                        display: block
+                                    }
+                                    html#mariamfarid h1{
+                                      color:#4d88ff;
+                                    text-align:center;
+                                    font-size: 50px
+                                    }
+                                    html#mariamfarid h2{
+                                      color:MidnightBlue;
+                                    text-align:right;
+                                    font-size: 30px
+                                    }
+                                    html#mariamfarid .p1{
+                                     font-family: Arial, Helvetica, sans-serif;
+                                    text-align: right;
+                                    font-size: 18px
+                                    }
+                                    html#mariamfarid img {
+                                      display: block;
+                                      margin-left: auto;
+                                     
+                                      width: 30%;
+                                    }
+                                    
+                                    html#mariamfarid div.gallery {
+                                      margin: 5px;
+                                      border: 1px solid #ccc;
+                                      float: left;
+                                      width: 180px;
+                                    }
+                                    
+                                    html#mariamfarid div.gallery:hover {
+                                      border: 1px solid #777;
+                                    }
+                                    
+                                    html#mariamfarid div.gallery img {
+                                      width: 100%;
+                                      height: auto;
+                                    }
+                                    
+                                    html#mariamfarid div.desc {
+                                      padding: 15px;
+                                      text-align: center;
+                                    }
+                                    
+                                    html#mariamfarid video {
+                                        margin-left: auto;
+                                        display: block
+                                    }
+                                    
+                                    html#mariamfarid .a1{
+                                     background-color:MidnightBlue ;
+                                      color: white;
+                                      padding: 14px 25px;
+                                      float: right;
+                                      display: inline-block;
+                                    }
+                                    html#mariamfarid ul {
+                                      list-style-type: none;
+                                      margin: 0;
+                                      padding: 0;
+                                      overflow: hidden;
+                                      background-color: powderblue;
+                                    }
+                                    
+                                    html#mariamfarid li {
+                                      float: left;
+                                    }
+                                    
+                                    html#mariamfarid li a {
+                                      display: block;
+                                      color: white;
+                                      text-align: center;
+                                      padding: 14px 16px;
+                                      text-decoration: none;
+                                    }
+                                    
+                                    html#mariamfarid li a:hover:not(.active) {
+                                      background-color: MidnightBlue;
+                                    }
+                                    
+                                    html#mariamfarid .active {
+                                      background-color:black;
+                                    }
+                                     
+                                    html#mariamfarid table,td, th {
+                                     border: 3px solid
+                                     
+                                    }
+                                    
+                                    html#mariamfarid table {
+                                      width: 50%;
+                                      border-collapse: collapse;
+                                     margin-left: auto;
+                                    color:#4d88ff ;
+                                     
+                                    }
+                                    html#mariamfarid .fa {
+                                      padding: 20px;
+                                      font-size: 30px;
+                                      width: 0px;
+                                      text-align: center;
+                                      text-decoration: none;
+                                      margin: 5px 2px;
+                                      color: white;
+                                    }
+                                    
+                                    
+                                    html#mariamfarid .fa:hover {
+                                        color:rgb(207, 177, 8)
+                                    }
+                                    
+                                    
+                                    html#mariamfarid div.logo {
+                                        background-color: black;
+                                        margin: 0px 0px -10px 0px;
+                                    }
+                                    
+                                    html#mariamfarid div.label {
+                                        margin: 20px 0px 0px 0px;
+                                        color: white;
+                                        text-align: center;
+                                        padding: 20px;
+                                    }
+                                    html#mariamfarid .tt1{
+                                    text-decoration:none;
+                                    border:1px solid MidnightBlue;
+                                    border-radius:50px;
+                                    color:black;
+                                    margin:30px 15px 0px 0px;
+                                    padding:15px 12px 15px 12px;
+                                    background-color:MidnightBlue;
+                                    }
+                                    
+                                    html#mariamfarid .tt1:hover{
+                                    background-color:rgb(184,184,49);
+                                    color:rgb(0,0,0);
+                                    transition:0.5s;
+                                    cursor:pointer;
+                                    box-shadow:2px 2px 8px 1px rgb(255,255,255);
+                                    }
+                                    
+                                    
+
+
