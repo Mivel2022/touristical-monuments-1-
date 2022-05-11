@@ -1,0 +1,2685 @@
+
+
+
+
+
+                                                    /* Mivel Wageh Page1 html#MW2021 */
+html#MW2021 *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html#MW2021 body{
+    background: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    direction: rtl;
+}
+html#MW2021 .contener1{
+    width: 90%;
+    min-height: 100vh;
+    background: linear-gradient(gray, white);
+    border-radius:20px ;
+    line-height: 1.5;
+}
+html#MW2021 div{
+    padding-top:30px ;
+}
+html#MW2021 nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    margin: auto;
+    padding: 20px 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    direction: ltr;
+}
+html#MW2021 nav img{
+    width: 40px;
+    height: auto;
+    vertical-align: sub;
+}
+html#MW2021 nav h1 a#logo{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin: 0 10px;
+   /* font-family: "sofia"; /**/
+   font-family: "Raleway", sans-serif;
+}
+
+html#MW2021 nav ul li {
+    display: inline-block;
+    margin: 0 6px;
+}
+html#MW2021 nav ul li a.item{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 650;
+    text-align: center;
+    padding: 15px 15px;
+    border-radius: 20px;
+}
+html#MW2021 nav ul li a:hover{
+    background-color: #fff ;
+}
+html#MW2021 nav li #print{
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 0px;
+}
+html#MW2021 #content, html#MW2021 #head{
+   margin: 0 60px;
+}
+html#MW2021 #head{
+   margin: 30px;
+}
+html#MW2021 h1#header{
+    text-align: center;
+    font-size: 45px;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(255,255,255,1);
+    text-shadow: 1px 1px 3px black;
+}
+html#MW2021 video#videoOfGerman{
+    max-width: 100%;
+    height: auto;
+}
+html#MW2021 h2{
+    text-align: center;
+    text-decoration-line: underline;
+    color: rgb(10, 17,17);
+    text-shadow: 1px 1px 5px white;
+    font-style: italic;
+    font-size: 40px;
+}
+html#MW2021  p, html#MW2021 table{
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+    padding: 2px;
+}
+html#MW2021  tr, html#MW2021 td{
+    margin: 2px 0;
+    padding: 2px 0;
+}
+html#MW2021 figure figcaption{
+    font-size: small;
+    text-align: center;
+}
+html#MW2021 table a:link , html#MW2021 table a:visited{
+    text-decoration: none;
+    color: black;
+}
+html#MW2021 table a:hover, html#MW2021 table a:active{
+    color: grey;
+    text-decoration: underline;
+}
+html#MW2021 figure img{
+    width: auto;
+    height: 250px;
+    vertical-align: middle;
+    opacity: 0.8;
+    transition: opacity 1s;
+}
+html#MW2021 figure img:hover{
+    opacity: 1;
+}
+html#MW2021 .قصور , html#MW2021 .كنايس {
+    width: 400px;
+    height: 200px;
+}
+html#MW2021 .foot,  html#MW2022 .foot{
+    color: white; 
+    text-align: center; 
+    font-family:'Courier New', Courier, monospace;
+}
+html#MW2021 .fa, html#MW2022 .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 0px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+  }
+  
+  html#MW2021 .fa:hover, html#MW2022 .fa:hover {
+      color:rgb(207, 177, 8)
+  } 
+  html#MW2021 div.logofoot, html#MW2022 div.logofoot {
+      background-color: rgb(10, 10, 10);
+      margin: 0px 0px -10px 0px;
+  }
+  html#MW2021  div.label, html#MW2022  div.label {
+      margin: 20px 0px 0px 0px;
+      color: white;
+      text-align: center;
+      padding: 20px;
+  }
+  html#MW2021  button.uparrow{
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 20px 10px 20px 10px;
+   /* background-color: gray;*/
+    color: black;
+    font-weight: bolder;
+    margin: 30px 50% 50px 50%;
+    
+  }
+  html#MW2021  button.uparrow:hover{
+      background-color: black;
+      color: #fff;
+      cursor: pointer;  
+  }
+  /* html#MW2021 .controls{
+      width: 800px;
+      margin: auto;
+  }
+  html#MW2021 button.NP, html#MW2021 button.PP{
+      text-decoration: none;
+      border: 2px solid white;
+      border-radius: 20px;
+      font-size: 24px;
+      text-align: center;
+      cursor: pointer;
+      color: black;
+      padding: 20px 10px;
+      margin: 30px 15px 0px 0px;
+  }
+  html#MW2021 button.NP{
+      float: right;
+  }
+  html#MW2021 button.PP{
+      float: left;
+  }
+  html#MW2021 button.NP:hover, html#MW2021 button.PP:hover{
+      background-color: gray;
+      color: black;
+  } */
+  html#MW2021 .dropbtn {
+      text-decoration: none; 
+      border: 2px solid white;
+      border-radius: 10px;
+      font-size: 24px; 
+      text-align: center;
+      cursor: pointer;
+      color: #000;
+      padding: 20px 10px;
+      margin: 30px 15px 0px 0px;
+  }
+  html#MW2021  .dropbtn:hover, html#MW2021 .dropbtn:focus {
+    background-color: gray;
+      color: black;
+  }
+  html#MW2021 .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  html#MW2021 .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  /* min-width: 160px; */
+  border-radius: 5px;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+  html#MW2021 .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }  
+  html#MW2021 .dropdown-content a:hover {
+      background-color: #ddd
+    }
+  html#MW2021 .show {
+      display:block;
+    }
+    html#MW2021 .dropdownH {
+        position: relative;
+         display: inline-block;
+         margin: 30px;
+      }      
+    html#MW2021 .dropdown-content-H {
+        display: none;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+      }
+    html#MW2021 .dropdownH:hover .dropdown-content-H {
+        display: block;
+      }
+      
+
+
+
+                                            /* Mivel Wageh Page2 html#MW2022 */
+html#MW2022 *{
+    padding: 0;
+    margin: 0;
+    /* font-family: sans-serif; */
+    color: white;
+}
+html#MW2022 body{
+    background: linear-gradient(#111,#222);
+    /*height: 100vh;*/
+    width: 100%;
+    display: flex;
+    justify-content: center ; /*x-axis */
+    align-items: center; /*y-axis*/
+    overflow: auto;
+}
+
+html#MW2022 .contener2{
+    width: 80%;
+    min-height: 100nv;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    line-height: 1.5;
+}
+html#MW2022 nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+html#MW2022 nav .logo{
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+html#MW2022 nav ul li{
+    display: inline-block;
+    margin: 0 6px;
+}
+html#MW2022 nav ul li a{
+    text-decoration: none;
+    /*color: white;*/
+    font-size: 18px;
+    font-weight: bold;
+}
+html#MW2022 nav ul li a:hover{
+    /* color: rgb(128, 25, 174); */
+    color: black;
+}
+html#MW2022 .content{
+    direction: rtl;
+    margin: 0 60px;
+}
+html#MW2022 div.A{
+    border: 1.5px solid rgb(128, 25, 163);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+html#MW2022 div.B{
+    border:3px solid rgb(128, 25, 174);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 7px;
+}
+html#MW2022 h2, html#MW2022 h3{
+    color: rgb(240, 212, 240);
+}
+html#MW2022 a{
+    text-decoration: none;
+}
+html#MW2022 a.link{
+    font-style: italic;
+}
+html#MW2022 h2, html#MW2022 a.link{
+    display: inline;
+}
+html#MW2022 a.pic:hover{
+    font-size: 20px;
+}
+html#MW2022 figure img{
+    max-width: 100%;
+    height: 250px;
+}
+html#MW2022 figure figcaption{
+    font-size: small;
+    text-align: center;
+}
+html#MW2022  #colors .col {
+    /* background-color: #020213;  */
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    background-color: #000;
+  }
+html#MW2022 button#red:hover{
+    background-color: red;
+}
+html#MW2022 button#orange:hover{
+    background-color: orange;
+}
+html#MW2022 button#yellow:hover{
+    background-color: yellow;
+}
+html#MW2022 button#green:hover{
+    background-color: green;
+}
+html#MW2022 button#blue:hover{
+    background-color: blue;
+}
+html#MW2022 button#lightblue:hover{
+    background-color: lightblue;
+}
+html#MW2022 button#purple:hover{
+    background-color: purple;
+}
+
+
+
+
+
+
+                                      /* Mariam Farid  html#mariamfarid */
+html#mariamfarid audio{
+    margin-left: auto;
+    color:MidnightBlue;
+    display: block
+}
+html#mariamfarid h1{
+    color:#4d88ff;
+text-align:center;
+font-size: 50px
+}
+html#mariamfarid h2{
+    color:MidnightBlue;
+text-align:right;
+font-size: 30px
+}
+html#mariamfarid .p1{
+    font-family: Arial, Helvetica, sans-serif;
+text-align: right;
+font-size: 18px
+}
+html#mariamfarid img {
+    display: block;
+    margin-left: auto;
+    
+    width: 30%;
+}
+
+html#mariamfarid div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+html#mariamfarid div.gallery:hover {
+    border: 1px solid #777;
+}
+
+html#mariamfarid div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+html#mariamfarid div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+html#mariamfarid video {
+    margin-left: auto;
+    display: block
+}
+
+html#mariamfarid .a1{
+    background-color:MidnightBlue ;
+    color: white;
+    padding: 14px 25px;
+    /* float: right; */
+    display: inline-block;
+}
+html#mariamfarid ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: powderblue;
+}
+
+html#mariamfarid li {
+    float: left;
+}
+
+html#mariamfarid li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+html#mariamfarid li a:hover:not(.active) {
+    background-color: MidnightBlue;
+}
+
+html#mariamfarid .active {
+    background-color:black;
+}
+    
+html#mariamfarid table,html#mariamfarid td, html#mariamfarid th {
+    border: 3px solid
+    
+}
+
+html#mariamfarid table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-left: auto;
+color:#4d88ff ;
+    
+}
+html#mariamfarid .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 0px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+}
+
+
+html#mariamfarid .fa:hover {
+    color:rgb(207, 177, 8)
+}
+
+
+html#mariamfarid div.logo {
+    background-color: black;
+    margin: 0px 0px -10px 0px;
+}
+
+html#mariamfarid div.label {
+    margin: 20px 0px 0px 0px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+html#mariamfarid .tt1{
+text-decoration:none;
+border:1px solid MidnightBlue;
+border-radius:50px;
+color:black;
+margin:30px 15px 0px 0px;
+padding:15px 12px 15px 12px;
+background-color:MidnightBlue;
+}
+
+html#mariamfarid .tt1:hover{
+background-color:rgb(184,184,49);
+color:rgb(0,0,0);
+transition:0.5s;
+cursor:pointer;
+box-shadow:2px 2px 8px 1px rgb(255,255,255);
+}
+                                    
+                                    
+
+
+
+
+                                                                    /* United States First Page Mina Nady*/
+html.mn2022 header, html.mn2022 h3.first {
+font-family: "Raleway", sans-serif;
+text-align: center;
+font-size: 100px;
+float: center;
+
+
+}
+
+html.mn2022 body.first {
+/* background-image: url('forestbridge.jpg'); */
+background-image: linear-gradient( #022534, #08545c, #A0BAcc);
+background-attachment: fixed;
+min-height: 100%;
+background-position: center;
+background-size: cover;
+
+
+}
+
+html.mn2022 h1.first {
+font-size: 90px;
+margin: 10% 0px -5px 0px;
+animation-name: head;
+animation-duration: 12s;
+color: white;
+text-align: center;
+}
+@keyframes head {
+10% {color: rgb(0, 0, 0); text-shadow: 1px 1px 1px white, 1px 1px 1px yellow, 1px 1px 1px blueviolet}
+20% {color: rgb(161, 243, 239); text-shadow: 1px 1px 1px white, 1px 1px 1px yellow, 1px 1px 1px blueviolet}
+30% {color: rgb(70, 190, 211); text-shadow: 1px 1px 1px white, 1px 1px 1px yellow, 1px 1px 1px blueviolet}
+40% {color: rgb(67, 141, 184); text-shadow: 1px 1px 1px white, 1px 1px 1px yellow, 1px 1px 1px blueviolet}
+50% {color: rgb(115, 71, 185); text-shadow: 1px 1px 1px white, 1px 1px 1px yellow, 1px 1px 1px blueviolet}
+60% {color: rgb(149, 36, 153); text-shadow: 1px 1px 1px white, 1px 1px 1px yellow, 1px 1px 1px blueviolet}
+70% {color: rgb(189, 45, 165); text-shadow: 1px 1px 1px white, 1px 1px 1px yellow, 1px 1px 1px blueviolet}
+80% {color: rgb(189, 73, 137); text-shadow: 1px 1px 1px white, 1px 1px 1px yellow, 1px 1px 1px blueviolet}
+90% {color: rgb(196, 65, 71); text-shadow: 1px 1px 1px white, 1px 1px 1px yellow, 1px 1px 1px blueviolet}
+95% {color: rgb(223, 118, 162);text-shadow: 1px 1px 1px white, 1px 1px 1px yellow, 1px 1px 1px blueviolet}
+100% {color: white;}
+}
+html.mn2022 h3.first {
+font-size: 30px;
+margin: 2px 0px 277px 0px;; 
+color: white;
+text-align: center;
+font-family: "Sofia", sans-serif;
+
+}
+html.mn2022 hr {
+margin-top: -10px;
+}
+
+html.mn2022 ul{
+list-style-type: none;
+margin:17px -26px 72px 0px;
+overflow: hidden;
+position: fixed;
+top: 0;
+border: none;
+border-radius: 30px; 
+width: 97%;
+}
+
+html.mn2022 li a {
+text-decoration: none;
+text-align: center;
+display: inline;
+float: left;
+color: white;
+padding: 14px 16px; 
+}
+
+html.mn2022 li a:hover {
+background-color: white;
+color: black;
+border: none;
+border-radius: 30px;
+transition: 0.7s;
+}
+
+html.mn2022 div.header {
+color: white;
+font-size: 40px;
+margin: 164px 0px 0px 0px;
+text-align: center;
+
+
+
+}
+
+/* Images */
+html.mn2022 div.img_with_desc {
+border: 1px solid gray;
+border-radius: 13px;
+margin: 17px 0px 0px 0px;
+padding: 12px 0px 7px 0px;
+}
+html.mn2022 img.first {
+float: left;
+box-sizing: border-box;
+max-width: 300px;
+margin: -150px 0px 12px 25px;
+padding: 0px 0px 0px 0px;
+border: none;
+border-radius: 13px;
+}
+html.mn2022 p.desc_of_photo {
+color: white;
+font-family: "Sofia", sans-serif;
+text-align: right;
+margin: -26px 7px -9px 0px;
+padding: 12px 0px 52px 0px;
+}
+
+html.mn2022 img.first:hover {
+transition: 0.6s;
+box-shadow: 22px 17px 59px -15px black;
+}
+
+/* Videos */
+html.mn2022 video.video {
+border: none;
+/* border-radius: 13px; */
+/* margin: -35px 440px 0px 0px; */
+text-align: center;
+
+}
+
+html.mn2022 p.first {
+color: white;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 38px 0px;
+font-family: "Sofia", sans-serif;
+
+}
+
+html.mn2022 p.under_video {
+color: white;
+margin: 17px 0px 0px 0px;
+padding: 12px 0px 38px 0px;
+font-family: "Sofia", sans-serif;
+text-align: center;
+border: 1px solid gray;
+border-radius: 13px;
+}
+
+/* Login */
+html.mn2022 input[type=text], html.mn2022 select {
+width:100%;
+padding: 9px 0px 10px 0px;
+margin: 8px 0px 11px -6px;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+html.mn2022 input[type=submit] {
+width: 100%;
+background-color: #272626;
+color: white;
+padding: 14px 20px;
+margin: 8px 0px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+
+}
+
+html.mn2022 input[type=submit]:hover {
+background-color: #9eccfa;
+color: rgb(0, 0, 0);
+}
+
+html.mn2022 div.login {
+border-radius: 5px;
+background-color: gray;
+padding: 20px;
+width: 40%;
+margin: 164px 370px 43px 330px;
+color: rgb(0, 0, 0);
+
+
+}
+
+html.mn2022 #login {
+margin:78px 470px -131px 0px;
+font-family: "Sofia", sans-serif;
+color: greenyellow;
+font-size: 30px; 
+
+}
+/* Social Media logo */
+
+html.mn2022 .fa {
+padding: 20px;
+font-size: 30px;
+width: 0px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+color: white;
+}
+
+html.mn2022 .fa:hover {
+color:rgb(207, 177, 8)
+}
+
+
+html.mn2022  div.logo {
+background-color: black;
+margin: 0px 0px -10px 0px;
+}
+
+html.mn2022 div.label {
+margin: 20px 0px 0px 0px;
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+                                                             /* about us */
+html.mn2022  body.about {
+background-color: rgb(201, 201, 201);
+background-image: url("images1/hero.png");
+background-position: right;
+background-attachment: fixed;
+background-size: 370px;
+background-repeat: no-repeat;
+box-shadow: -5px 41px 51px 3px black;
+
+
+}
+
+html.mn2022 h1.about {
+font-size: 60px;
+text-shadow: 3px 1px 5px black;
+width:50%;
+color:rgb(255, 255, 255);
+margin: 20px 0px 0px 510px;
+padding: 58px 0px 38px 0px;
+
+}
+
+html.mn2022 p.underphoto {
+font-family: "Sofia", sans-serif;
+font-size: 30px;
+text-align: center;
+}
+
+
+/* Editor Photo */
+html.mn2022 div.name {
+box-shadow: 22px 17px 59px -15px black;
+padding: 5px;  
+}
+
+html.mn2022 div.name img.about {
+
+width: 100%;
+height: auto; 
+}
+
+html.mn2022 .galery {
+padding: 0 6px;
+width: 24.99999%;
+margin:-24px 51px 0px 465px;
+}
+
+
+html.mn2022 div.desc {
+padding: 15px;
+text-align: center;
+color: black;
+}
+
+html.mn2022 p.about {
+
+font-family: 'sofia';
+font-size: 20px;
+}
+
+html.mn2022 button.button {
+text-decoration: none;
+border: 1px solid yellow;
+border-radius: 50px;
+color: black;
+margin: 30px 15px 0px 0px;
+padding: 15px 12px 15px 12px;
+background-color: yellow;
+
+}
+html.mn2022 button.button:hover {
+background-color: rgb(184, 184, 49);
+color: rgb(0, 0, 0);
+transition: 0.5s;
+cursor: pointer;
+box-shadow: 2px 2px 8px 1px rgb(255, 255, 255);
+}
+
+/* Button Of Nav Bar */
+html.mn2022 button.nav {
+text-decoration: none;
+background-color: #022534;
+border: 1px solid white;
+border-radius: 50px;
+padding: 15px ;
+margin: 0px 900px 0px -135px;
+position: fixed;
+color: white;
+}
+html.mn2022 button.nav {
+    text-decoration: none;
+    background-color: #022534;
+    border: 1px solid white;
+    padding: 14px 16px;
+    border-radius: 30px;
+    color: white; 
+}
+
+html.mn2022 button.nav:hover {
+    background-color: red;
+    transition: 0.5s;
+}
+html.mn2022 button.nav:hover {
+background-color: red;
+transition: 0.5s;
+}   
+html.mn2022 button.boa {
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+    padding: 13px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.6s;
+    margin: 5px;
+  }
+
+  html.mn2022 button.boa:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 1px 2px 5px 1px black;
+    
+  }
+
+
+
+
+
+
+
+                                                         /* mostafa login page Html#momo */
+ Html#momo body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url("pexels-francesco-ungaro-673648.jpg");
+}
+
+Html#momo .login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 450px;
+    border: 5px solid #b3b3b3;
+    border-radius: 10px;
+    transition: 0.5 ease;
+    padding: 40px;
+}
+
+Html#momo .login:hover {
+    box-shadow:  3px 3px 50px  rgb(42, 199, 68);
+}
+Html#momo .login img{
+    width: 30%;
+   
+
+}
+
+
+Html#momo h2{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 0;
+    color: #811010;
+    font-size: 50px;
+}
+Html#momo .Button{
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 100%;
+    background: none;
+    cursor: pointer;
+}
+Html#momo .Button:hover{
+    background-color: rgb(42, 199, 68);
+    color: #b3b3b3;
+}
+Html#momo .inputText{
+    position: relative;
+    margin: 20px 0;
+}
+Html#momo .inputText input{
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: none;
+    padding-left: 20px;
+    border-bottom: 2px solid rgb(42, 199, 68);
+}
+Html#momo .rememper{
+    margin-top: 45px;
+    color: #811010;
+}
+Html#momo .lo{
+    float: right;
+} 
+
+
+
+
+
+
+
+
+                                                                /* Mostafa page1 Html#momo1 */
+ Html#momo1 .z {
+    overflow: hidden;
+    background-color: antiquewhite;
+    margin-right: 10px;
+    border-radius: 10px;
+} 
+
+Html#momo1 .header {
+    border: 20px;
+    border-radius: 10px;
+    height: 100px;
+}
+
+Html#momo1 ul {
+    width: 99%;
+    list-style-type: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+Html#momo1 li {
+    float: left;
+}
+
+Html#momo1 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+Html#momo1 li a:hover {
+    background-color: #a79696;
+}
+
+Html#momo1 .right {
+    width: 19%;
+    height: 470px;
+    float: right;
+    border: thin solid black;
+    border-radius: 10px;
+    margin-right: 1%;
+    
+}
+Html#momo1 .right pre{
+    color: rgb(175, 175, 27);
+}
+Html#momo1 .right img{
+    width: 100%;
+    height: 100%;  
+    border-radius: 10px;  
+}
+
+Html#momo1 .left {
+    width: 19%;
+    height: 470px;
+    float: left;
+    border: thin solid black;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: 1000;
+}
+
+
+Html#momo1 .ccc {
+    float: right;
+    background-color: rgb(226, 43, 134);
+    width: 50%;
+}
+
+Html#momo1 div {
+    background-color: rgb(221, 207, 207);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    border: 2px solid rgb(0, 0, 0);
+    left: 100px;
+    right: 100px;
+}
+
+
+Html#momo1 body {
+    background-image: url("jGlzr.png");
+    font-size: 20px;
+    font-style: italic;
+}
+
+Html#momo1 .b {
+    background-color: rgb(28, 28, 121);
+    text-align: left;
+    border: thin solid black;
+    border-radius: 10px;
+}
+
+Html#momo1 .ggg {
+    float: right;
+}
+
+Html#momo1 .ee {
+    float: right;
+}
+
+Html#momo1 .c {
+
+    color: rgb(0, 0, 0);
+    font-family: Andalus;
+    font-weight: 100;
+    font-weight: bold;
+
+}
+
+Html#momo1 .a {
+    float: right;
+    color: rgb(10, 10, 9);
+    font-weight: bold;
+    margin: 20px;
+    direction: rtl;
+    text-align: right;
+    font-weight: 10000;
+    font-size: large;
+    font-family: "Droid Arabic Kufi", serif;
+}
+Html#momo1 .foot h2{
+   font-family: 'Times New Roman', Times, serif;
+   color: #4841a1;
+}
+Html#momo1 .foot img{
+    width: 30px;
+}
+Html#momo1 .foot{
+    background-color: #000;
+    border-radius: 10px;
+}
+Html#momo1 .l1 {
+    color: yellow; 
+    padding: 200px;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 1000;
+ }
+
+
+
+                                                           /* mostafa page2 Html#momo2 */
+Html#momo2 body{
+    background-image: url("images1\jGlzr.png");
+    width: 100%;
+}
+Html#momo2 .aa{
+    background-color: antiquewhite;
+    width: 99%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+Html#momo2 pre{
+    font-weight: 800;
+    font-family: Andalus;
+    font-size: larger;
+    float: right;
+}
+Html#momo2 h3{
+    color: rgb(40, 29, 199);
+    float: right;
+    font-size: larger;
+    font-weight: 400;
+}
+Html#momo2 span img{
+    width: 40%;
+    height: 500px;
+}
+Html#momo2 table{
+    width: 80%;
+    border-radius: 10px;
+    border: thin solid black;
+    margin-bottom: 10px;
+}
+Html#momo2 td,Html#momo2 th{
+   padding: 20px;
+   margin: 20px;
+   font-size: larger;
+   font-weight: 1000;
+   font-family: Andalus;
+   
+}
+
+Html#momo2 ul{
+    list-style-type: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    font-style: italic;
+    width: 99%;
+}
+Html#momo2 .lm{
+    background-color: rgb(189, 91, 91);
+}
+Html#momo2 li{
+    float: left;
+}
+Html#momo2 li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+Html#momo2 li a:hover{
+    background-color: #a79696;
+}
+Html#momo2 .ss{
+    color: rgb(39, 99, 163);
+}
+Html#momo2 .ff{
+    color: rgb(46, 156, 156);
+    font-family: Andalus;
+}
+Html#momo2 h2{
+    
+    font-family: Andalus;
+    color: rgb(17, 107, 107);
+}
+Html#momo2 img{
+  width: 40%;
+  border-radius: 10px;
+}
+Html#momo2 .fotter{
+    background-color: #000;
+    float: right;
+    border:thin solid black;
+    height: 100px;
+}
+Html#momo2 .foot h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: #4841a1;
+ }
+ Html#momo2 h1{
+    font-family: Andalus;
+    color: rgb(17, 107, 107);
+ }
+
+ Html#momo2 .foot img{
+     width: 30px;
+ }
+Html#momo2 .foot{
+     background-color: #000;
+     border-radius: 10px;
+     width: 100%;
+ }
+Html#momo2 audio, Html#momo2 video{
+     border-radius: 10px;
+ }
+                                                   /* Hadeer Mohamed page1 html #HM2022  */
+html#HM2022  body
+{
+  background-color: powderblue;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+ 
+
+}  
+
+html#HM2022  *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+ }
+
+ html#HM2022 header{
+        width:100% ;
+        height: 60px;
+        background-color: #2c3e50;
+        }
+ 
+        html#HM2022 #logo{
+      float: left;
+      padding: 9px 0 9px 50px;
+     }
+
+     html#HM2022  #logo h1{
+         color: white;
+         font-family: tahoma;
+         cursor: pointer;
+}
+html#HM2022  #logo h1:hover{
+                color: rgb(181, 221,223)
+              }
+              html#HM2022  nav ul {
+        list-style:none ; 
+        float: right;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 45px;
+
+
+       }
+
+       html#HM2022 nav ul li{
+          padding: 0 15px;
+         }
+
+         html#HM2022 nav ul li a {
+              text-decoration: none;
+              color: white;
+              font-size: 17px;
+              font-family: monospace;
+              transition: .3s ease-out ;
+
+            }
+
+            html#HM2022  nav ul li a:hover {
+                    color: rgb(195,195, 195);
+              
+
+                  }
+
+                  html#HM2022  div.gallery{
+            border: 2px solid gray ;
+            border-radius: 50px;
+            background-color: aliceblue;
+          
+
+           }
+           html#HM2022 div.gallery:hover{
+                   border: 1px solid gray;
+                   box-shadow: 0 0 10px 5px rgba(0, 140, 186, 0.5);
+                   transition: 0.7s;
+                   opacity:0.7 ;
+                  
+                 }
+
+                 html#HM2022  div.gallery img{
+                 width: 100%;
+                 height:200px;
+                 padding-left:20px ;
+                 padding-top:20px ;
+                 padding-right: 15px;
+                
+                 
+                }
+
+                html#HM2022  div.desc{
+         padding:5px;
+         text-align: center;
+         color:rgb(32, 99, 121);
+        }
+
+        html#HM2022 *{
+  box-sizing: border-box ;
+  
+ }
+
+ html#HM2022  .responsive{
+             padding: 10px 6px;
+             float: left;
+             width:25% ;
+           }
+           html#HM2022 video{
+              border: #2c3e50;
+            
+              
+           } 
+
+           html#HM2022 p{color: black;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html#HM2022 p2{color:rgb(32, 99, 121);
+  text-align:right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html#HM2022 h3{
+    color:rgb(32, 99, 121) ;
+    text-align:center;
+    font-size:150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   html#HM2022  h4{
+     color:rgba(255, 255, 255, 0.918);
+     text-align:center;
+     text-shadow: 2px 2px 4px #000000;
+     font-size:300%;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;}
+     html#HM2022   .fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 0px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+  }
+  html#HM2022 .fa:hover{
+    color:white;
+  }
+  html#HM2022  div.logo{
+    background-color: black;
+    margin: 0px 0px -10px 0px ;
+  }
+  html#HM2022  div.label{
+    margin: 20px 0px 0px 0px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  html#HM2022 button.button{
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    border-radius: 50px;
+    color: black;
+    margin: 30px 15px 0px 0px;
+    padding: 15px 12px 15px 12px ;
+    background-color: whitesmoke;
+}
+html#HM2022  button.button:hover{
+             background-color: paleturquoise;
+             color: black;
+             transition: 0.5s;
+             cursor: pointer;
+             box-shadow: 2px 2px 8px 1px black;
+}
+
+
+
+
+                                                /* Hadeer Mohamed page1 html #HM2021  */
+html#HM2021  body
+        {
+          background-color: powderblue;
+          padding-left: 40px;
+          padding-right: 40px;
+          padding-bottom: 40px;
+        
+        }  
+
+        html#HM2021  *{
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+          outline: none;
+         }
+
+         html#HM2021  header{
+                width: 100% ;
+                height: 60px;
+                background-color: #2c3e50;   
+              
+                }
+         
+                html#HM2021 #logo{
+              float: left;
+              padding: 9px 0 9px 50px;
+             }
+
+             html#HM2021 #logo h1{
+                 color: white;
+                 font-family: tahoma;
+                 cursor: pointer;
+        }
+        html#HM2021 #logo h1:hover{
+                        color: rgb(181, 221,223)
+                      }
+                      html#HM2021 nav ul {
+                list-style:none ; 
+                float: right;
+                height: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 45px;
+
+
+               }
+
+               html#HM2021  nav ul li{
+                  padding: 0 15px;
+                 }
+
+                 html#HM2021 nav ul li a {
+                      text-decoration: none;
+                      color: white;
+                      font-size: 17px;
+                      font-family: monospace;
+                      transition: .3s ease-out ;
+
+                    }
+
+                    html#HM2021 nav ul li a:hover {
+                            color: rgb(195,195, 195);
+                      
+
+                          }
+
+                          html#HM2021 div.gallery{
+                    border: 2px solid gray ;
+                    border-radius: 50px;
+                    background-color:aliceblue;
+
+                   }
+                   html#HM2021 div.gallery:hover{
+                           border: 1px solid gray;
+                           box-shadow: 0 0 10px 5px rgba(0, 140, 186, 0.5);
+                           transition: 0.7s;
+                           opacity:0.7 ;
+                          
+                         }
+
+                         html#HM2021 div.gallery img{
+            width: 100%;
+                         height:200px;
+                         padding-left:20px ;
+                         padding-top:20px ;
+                         padding-right: 15px;
+                        
+                         
+                        }
+
+                        html#HM2021 div.desc{
+                 padding: 15px;
+                 text-align: center;
+                 color:rgb(32, 99, 121);
+                 height: 280px;
+                 
+                 
+                 
+                }
+
+                html#HM2021 *{
+          box-sizing:border-box ;
+
+         }
+
+         html#HM2021  .responsive{
+                     padding: 10px 6px;
+                     float: left;
+                     width:25% ;
+                   }
+
+                   html#HM2021    p{
+           color:rgb(32, 99, 121);
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         padding-bottom:3px ;
+        }
+
+        html#HM2021   h2{
+            color:rgb(32, 99, 121) ;
+            text-align:center;
+            font-size:150%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+           }
+           html#HM2021    h3{
+             color:rgba(255, 255, 255, 0.918);
+             text-align:center;
+             text-shadow: 2px 2px 4px #000000;
+             font-size:300%;
+             font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+             html#HM2021   .fa{
+              padding: 20px;
+              font-size: 30px;
+              width: 0px;
+              text-align: center;
+              text-decoration: none;
+              margin: 5px 2px;
+              color: white;
+            }
+            html#HM2021 .fa:hover{
+              color:white;
+            }
+            html#HM2021  div.logo{
+              background-color: black;
+              margin: 0px 0px -10px 0px ;
+            }
+            html#HM2021  div.label{
+              margin: 20px 0px 0px 0px;
+              color: white;
+              text-align: center;
+              padding: 20px;
+            }
+            html#HM2021 button.button{
+              text-decoration: none;
+              border: 1px solid whitesmoke;
+              border-radius: 50px;
+              color: black;
+              margin: 30px 15px 0px 0px;
+              padding: 15px 12px 15px 12px ;
+              background-color: whitesmoke;
+          }
+          html#HM2021  button.button:hover{
+                       background-color: paleturquoise;
+                       color: black;
+                       transition: 0.5s;
+                       cursor: pointer;
+                       box-shadow: 2px 2px 8px 1px black;
+          }
+
+
+
+
+                                         /* Mariem Walid Home page html#marw */
+ html#marw *
+ {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'poppins', sans-serif;
+ }
+ html#marw .hero
+ {
+     width: 100%;
+     height: 100vh;
+     position: relative;
+     padding: 0 5%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ html#marw nav
+ {
+     width: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     padding: 20px 8%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ html#marw nav img
+ {
+     width: 40px;
+ }
+ html#marw nav ul li
+ {
+     list-style: none;
+     display: inline-block;
+     margin-left: 40px;
+ }
+ html#marw nav ul li a
+ {
+     text-decoration: none;
+     color: rgb(255, 0, 238);
+     font-size: 17px;
+ }
+ html#marw .content
+ {
+     text-align: center;
+ }
+ html#marw .content h1
+ {
+     font-size: 95px;
+     color: #fff;
+     font-weight: 500;
+     transition: 0.5s;
+ }
+ html#marw .content h1:hover
+ {
+     -webkit-text-stroke: 2px #fff;
+     color: transparent;
+ }
+ html#marw .content a
+ {
+     text-decoration: none;
+     display: inline-block;
+     color: #fff;
+     font-size: 25px;
+     border: 2px solid #fff;
+     padding: 14px 70px;
+     border-radius: 50px;
+     margin-top: 20px;
+ }
+ html#marw .back-video
+ {
+     position: absolute;
+     right: 0;
+     bottom: 0;
+     z-index: -1;
+     width: 100%;
+     height: auto;
+ }
+ 
+
+
+                                               /* mariem walid page 1 html#mariw */
+ html#mariw *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: 'poppins', sans-serif;*/
+        background-color:rgb(248, 249, 249);
+}
+html#mariw .hero
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+}
+html#mariw nav
+{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+html#mariw nav img
+{
+    width: 40px;
+}
+html#mariw nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+html#mariw nav ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+html#mariw span .h11
+{
+    font-size: 35px;
+    margin: 40px;
+    padding-top: 50px;
+    text-align:center; 
+    color: #000;
+    display: block; 
+}
+html#mariw .h22
+{
+    width: 100%;
+    height: auto;
+    padding: 1%;
+}
+html#mariw .container
+{
+    position: absolute;
+    width: inherit;
+    display: flex;
+    height: 35px;
+}
+html#mariw .h33 div img
+{
+    float: left;
+    margin-left: 2%;
+    height: 250px;
+    width: 400px;
+}
+html#mariw .h33 .details h2
+{
+    float: right;
+    margin-left: 60px;
+}
+html#mariw .h33 .details h4
+{
+    font-size:40px;
+    float: right;
+    line-height: 1.2;
+    font-family:'Schehrazade', serif;
+    text-align: justify;
+    direction: rtl;
+}
+html#mariw .list
+{
+    border: 1px solid rgb(42, 42, 42);
+    border-radius: 2%;
+    float: right;
+    list-style-position: inside;
+    direction: rtl;
+    padding: 5px;
+    margin-top: 3%;
+    line-height: 1.4;
+}
+html#mariw .h44
+{
+    color: rgb(248, 26, 26);
+    background-color: rgb(210, 204, 204);
+    font-size: 2em;
+    float: right;
+    width: 100%;
+    direction: rtl;
+    margin-top: 20px;
+    padding: 1.5%;
+}
+html#mariw .mrakeshphoto
+{
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+}
+html#mariw figure .cap1
+{
+    text-align: center;
+    color: rgb(144, 139, 139);
+}
+html#mariw .h55
+{
+    font-size:x-large;
+    float: right;
+    text-align:justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    direction: rtl;
+    line-height: 1;
+    padding-top: 10px;
+}
+html#mariw .h66
+{
+    color: rgb(248, 26, 26);
+    background-color: rgb(210, 204, 204);
+    font-size: 2em;
+    float: right;
+    width: 100%;
+    direction: rtl;
+    margin-top: 20px;
+    padding: 1.5%;
+}
+html#mariw .tangaphoto
+{
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+}
+html#mariw figure .cap2
+{
+    text-align: center;
+    color: rgb(144, 139, 139);
+}
+html#mariw .h77
+{
+    font-size:x-large;
+    float: right;
+    text-align:justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    direction: rtl;
+    line-height: 1;
+    padding-top: 10px;
+}
+html#mariw .h88
+{
+    color: rgb(248, 26, 26);
+    background-color: rgb(210, 204, 204);
+    font-size: 2em;
+    float: right;
+    width: 100%;
+    direction: rtl;
+    margin-top: 20px;
+    padding: 1.5%;
+}
+html#mariw .robatphoto
+{
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+}
+html#mariw figure .cap3
+{
+    text-align: center;
+    color: rgb(144, 139, 139);
+}
+html#mariw .h99
+{
+    font-size:x-large;
+    float: right;
+    text-align:justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    direction: rtl;
+    line-height: 1;
+    padding-top: 10px;
+}
+html#mariw .h111
+{
+    color: rgb(248, 26, 26);
+    background-color: rgb(210, 204, 204);
+    font-size: 2em;
+    float: right;
+    width: 100%;
+    direction: rtl;
+    margin-top: 20px;
+    padding: 1.5%;
+}
+html#mariw .aghaderphoto
+{
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+}
+html#mariw figure .cap4
+{
+    text-align: center;
+    color: rgb(144, 139, 139);
+}
+html#mariw .h222
+{
+    font-size:x-large;
+    float: right;
+    text-align:justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    direction: rtl;
+    line-height: 1;
+    padding-top: 10px;
+}
+html#mariw .h333
+{
+    color: rgb(248, 26, 26);
+    background-color: rgb(210, 204, 204);
+    font-size: 2em;
+    float: right;
+    width: 100%;
+    direction: rtl;
+    margin-top: 20px;
+    padding: 1.5%;
+}
+html#mariw .fasphoto
+{
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+}
+html#mariw figure .cap5
+{
+    text-align: center;
+    color: rgb(144, 139, 139);
+}
+html#mariw .h444
+{
+    font-size:x-large;
+    float: right;
+    text-align:justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    direction: rtl;
+    line-height: 1;
+    padding-top: 10px;
+}
+html#mariw .cap1
+{
+    margin: 0;
+}
+html#mariw .cap2
+{
+    margin: 0;
+}
+html#mariw .cap3
+{
+    margin: 0;
+}
+html#mariw .cap4
+{
+    margin: 0;
+}
+html#mariw .cap5
+{
+    margin: 0;
+}
+html#mariw .fp 
+{
+    font-size:x-large;
+    float: right;
+    text-align:justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    direction: rtl;
+    margin: 0;
+}
+html#mariw #info 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0;
+}
+html#mariw #info td, #info th 
+{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+html#mariw #info tr:nth-child(even)
+{
+      background-color: #f2f2f2;
+}
+html#mariw #info tr:hover 
+{
+      background-color: #ddd;
+}
+html#mariw #info th 
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 30px;
+}
+html#mariw #info td
+{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+html#mariw #info  th, html#mariw #info td {
+    padding: 15px;
+}
+html#mariw footer
+{
+    text-align: center;
+    padding: 3px;
+    height: 100px;
+    margin: 60px 0px 0 0px;
+    display: block;
+    margin: 0;
+}
+html#mariw .fa
+{
+    padding: 20px;
+    font-size: 30px;
+    width: 0px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+html#mariw .fa:hover
+{
+    color: rgb(207, 177, 8);
+}
+html#mariw footer.label
+{
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 25px;
+}
+html#mariw footer p
+{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+ 
+
+
+                                             /* Mariem Walid category page html#mariwa */
+html#mariwa *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+html#mariwa body
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+html#mariwa nav
+{
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+html#mariwa nav img
+{
+    width: 40px;
+}
+html#mariwa nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+html#mariwa nav ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+html#mariwa .column1
+{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 5px solid black;
+    position: relative;
+    top: 390px;
+}
+
+html#mariwa .column2
+{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 5px solid black;
+    position: relative;
+    top: 390px;
+}
+
+html#mariwa .column3
+{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 5px solid black;
+    position: relative;
+    top: 390px;
+}
+
+
+
+                                       /* Mariem walid reviews page html#mariwal */
+html#mariwal *
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins', sans-serif;
+}
+html#mariwal body
+{
+background-color: black;
+}
+
+html#mariwal nav
+{
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+padding: 20px 8%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+html#mariwal nav img
+{
+width: 40px;
+}
+html#mariwal nav ul li
+{
+list-style: none;
+display: inline-block;
+margin-left: 40px;
+}
+html#mariwal nav ul li a
+{
+text-decoration: none;
+color: #fff;
+font-size: 17px;
+}
+
+html#mariwal .column1
+{
+float: left;
+width: 23%;
+padding: 5px;
+border: 5px solid black;
+position: relative;
+top: 200px;
+left: 50px;
+}
+
+html#mariwal .column2
+{
+float: left;
+width: 23%;
+padding: 5px;
+border: 5px solid black;
+position: relative;
+top: 300px;
+left: 50px;
+margin-bottom: 100px;
+}
+html#mariwal h4
+{
+color: white;
+font-family: 'Courier New', Courier, monospace;
+}
+html#mariwal .reviews .row1 img , .reviews .row2 img
+{
+height:400px;
+width: 400px;
+}
+
+
+
+                                                        /* Mohraeel Maged Page1 html#Mohraeel */
+html#Mohraeel body{
+    /* background-color:rgb(49, 159, 196); */
+    background-image: linear-gradient(rgb(76, 145, 168),white);
+    background-attachment: fixed;
+    font-family: "Raleway", sans-serif;
+  
+  }
+  /* Navigation Bar */
+  
+  html#Mohraeel ul {
+    list-style-type: none;
+    margin:8px -5px 73px 0px;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 96%;
+    border: none;
+    border-radius: 13px;
+  
+  }
+  
+  html#Mohraeel li a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: inline;
+    float: left;
+  
+    padding: 15px;
+  }  
+  
+  html#Mohraeel li a:hover {
+    border: none;
+    border-radius: 50px;    
+    background-color: gainsboro;
+    color: black;
+    transition: 0.5s;
+  }
+  
+  /* Button Of Nav Bar */
+  html#Mohraeel  button.button {
+      border: none;
+      border-radius: 50px;
+      background-color: rgb(76, 145, 168);
+      padding: 5px;
+  
+  }
+  html#Mohraeel button.button:hover {
+    background-color: gainsboro;
+    color: black;
+  }
+  
+  html#Mohraeel h1 {
+    text-align: center;
+    text-shadow: 3px 3px 4px blue;
+    font-size: 40px;
+    margin: 120px 0px 40px 0px ;
+    text-align: center;
+  
+  }
+  
+  html#Mohraeel p {
+  font-family: "Sofia", sans-serif;
+  font-size: 20px;
+  }
+  
+  
+  html#Mohraeel iframe {
+    text-align: center;
+    border: none;
+    border-radius: 13px;
+  }
+  
+      /* Images */
+      html#Mohraeel div.img_with_desc {
+      border: 1px solid gray;
+      border-radius: 13px;
+      margin: 17px 0px 0px 0px;
+      padding: 12px 0px 7px 0px;
+    }
+    html#Mohraeel img.first {
+      float: left;
+      box-sizing: border-box;
+      max-width: 300px;
+      margin: -150px 0px 12px 25px;
+      padding: 0px;
+      border: none;
+      border-radius: 13px;
+    }
+    html#Mohraeel p.desc_of_photo {
+      color: black;
+      font-family: "Sofia", sans-serif;
+      text-align: right;
+      margin: -26px 7px -9px 0px;
+      padding: 12px 0px 52px 0px;
+    }
+    
+    html#Mohraeel img.first:hover {
+      transition: 0.6s;
+      box-shadow: 22px 17px 59px -15px black;
+    }
+  
+          /* Social Media logo */
+      html#Mohraeel .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 0px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      color: white;
+    }
+    
+    html#Mohraeel .fa:hover {
+        color:rgb(207, 177, 8)
+    }
+    
+    
+    html#Mohraeel div.logo {
+        background-color: black;
+        margin: 0px 0px -10px 0px;
+    }
+    
+    html#Mohraeel div.label {
+        margin: 20px 0px 0px 0px;
+        color: white;
+        text-align: center;
+        padding: 50px;
+        background-color: black;
+  
+    }
+  
+    html#Mohraeel p.foot {
+      text-align: center;
+      color: white;
+      margin-top: -30px;
+    }
+
+
+                                                /* Mohamed sayed page1 html#mohsa */
+html#mohsa body {
+    border: none;
+    background-color: powderblue;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+    
+    html#mohsa * {
+    padding: 0px;
+    margin: 0px;
+    }
+    
+    html#mohsa .test3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    html#mohsa .test {
+    height: 450px;
+    width: 1350px;
+    background: none;
+    border: 10px none solid;
+    background-image: url(images1/123456m.jpg);
+    background-repeat: no-repeat;
+    background-size: 1700px 400px;
+    }
+    
+    html#mohsa p.test1 {
+    height: 1300px;
+    width: 1300px;
+    border: 5px none solid;
+    font-size: 20px;
+    line-height: 30px;
+    background-size: none;
+    text-align: right;
+    background: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    margin: auto;
+    }
+    
+    html#mohsa .test123 {
+    height: 350px;
+    width: 370px;
+    border: 5px none solid;
+    background-color: none;
+    background-image: url(images1/12345m.jpg);
+    background-size: 500px 400px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    }
+    
+    html#mohsa .test12 {
+    height: 350px;
+    width: 370px;
+    border: 5px none solid;
+    background-color: aqua;
+    background-image: url(images1/mo222.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+    background-position: center;
+    margin-left: 450px;
+    margin-top: -290px;
+    }
+    
+    html#mohsa .test1234 {
+    height: 350px;
+    width: 370px;
+    border: 5px none solid;
+    background-color: aqua;
+    background-image: url(images1/1234567m.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+    background-position: center;
+    margin-left: 900px;
+    margin-top: -280px;
+    }
+    /* div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    }
+    
+    div.gallery:hover {
+    border: 1px solid #777;
+    }
+    
+    div.gallery img {
+    width: 100%;
+    height: auto;
+    }
+    
+    div.desc {
+    padding: 15px;
+    text-align: center;
+    } */
+    
+    html#mohsa a {
+    color: black;
+    text-decoration: none;
+    }
+    
+    html#mohsa a:hover {
+    color: rgb(119, 35, 42);
+    font-size: 40px;
+    }
+    
+    html#mohsa .test78 {
+    width: 2000px;
+    height: 2000px;
+    border: 10px red solid;
+    background-color: aqua;
+    }
+    
+    html#mohsa .test66 {
+    width: 1340px;
+    height: 60px;
+    background-color: grey;
+    border: 10px none solid;
+    }
+    
+    html#mohsa div h1 {
+    float: left;
+    padding-top: 10px;
+    margin-left: 20px;
+    }
+    
+    html#mohsa nav ul li {
+    float: right;
+    padding-top: 21px;
+    margin-left: 19px;
+    font-size: 22px;
+    list-style-type: none;
+    }
+    
+    html#mohsa nav ul li a:hover {
+    color: black;
+    font-size: 30px;
+    }
+    
+    html#mohsa .test78 {
+    height: 200px;
+    width: 200px;
+    border: 10px red solid;
+    background-color: aquamarine;
+    }
+    
+    html#mohsa button.button {
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    border-radius: 50px;
+    color: black;
+    margin: 30px 15px 0px 0px;
+    padding: 15px 12px 15px 12px;
+    background-color: whitesmoke;
+    }
+    
+    html#mohsa button.button:hover {
+    background-color: paleturquoise;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px 1px black;
+    }
+    html#mohsa p.test147{
+    height: 1400px;
+    width: 1300px;
+    border: 5px none solid;
+    font-size: 20px;
+    line-height: 30px;
+    background-size: none;
+    text-align: right;
+    background: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    margin: auto;
+    }
+    html#mohsa .m75{
+    height: 450px;
+    width: 1350px;
+    background: none;
+    border: 10px none solid;
+    background-image: url(images1/5m.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1400px 400px;
+    }
+    html#mohsa .me88{
+    height: 350px;
+    width: 370px;
+    border: 5px none solid;
+    background-color: none;
+    background-image: url(images1/1m.jpg);
+    background-size: 500px 400px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    
+    
+    }
+    html#mohsa .me89{
+    
+    height: 350px;
+    width: 370px;
+    border: 5px none solid;
+    background-color: none;
+    background-image: url(images1/me1.jpg);
+    background-size: 500px 400px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    
+    margin-left: 450px;
+    margin-top: -290px;
+    }
+    
+    html#mohsa .me90{
+    height: 350px;
+    width: 370px;
+    border: 5px none solid;
+    background-color: none;
+    background-image: url(images1/123as.jpg);
+    background-size: 500px 400px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-left: 900px;
+    margin-top: -280px;
+    }    
+
+
+                                                     /* Mohamed sayed page2 html#mohsai */
+html#mohsai body {
+    border: none;
+    background-color: rgba(79, 147, 156, 0.603);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+html#mohsai * {
+    padding: 0px;
+    margin: 0px;
+}
+
+html#mohsai .test3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html#mohsai p.test1 {
+    height: 850px;
+    width: 1300px;
+    border: 5px grey solid;
+    font-size: 20px;
+    line-height: 30px;
+    background-size: none;
+    text-align: right;
+    background: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    margin: auto;
+}
+
+html#mohsai .test123 {
+    height: 350px;
+    width: 370px;
+    border: 5px none solid;
+    background-color: none;
+    background-image: url(images1/m10.jpg);
+    background-size: 400px 250px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+html#mohsai .test12 {
+    height: 350px;
+    width: 370px;
+    border: 5px none solid;
+    /* background-color: aqua; */
+    background-image: url(images1/m000.webp);
+    background-repeat: no-repeat;
+    background-size: 400px 250px;
+    background-position: center;
+    margin-left: 450px;
+    margin-top: -250px;
+}
+
+html#mohsai .test1234 {
+    height: 350px;
+    width: 370px;
+    border: 5px none solid;
+    /* background-color: aqua; */
+    background-image: url(images1/m0000.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px 250px;
+    background-position: center;
+    margin-left: 900px;
+    margin-top: -280px;
+}
+
+html#mohsai a {
+    color: black;
+    text-decoration: none;
+}
+
+html#mohsai a:hover {
+    color: rgb(119, 35, 42);
+    font-size: 40px;
+}
+
+html#mohsai .test78 {
+    width: 2000px;
+    height: 2000px;
+    border: 10px red solid;
+    background-color: aqua;
+}
+
+html#mohsai .test66 {
+    width: 1340px;
+    height: 60px;
+    background-color: grey;
+    border: 10px none solid;
+}
+
+html#mohsai div h1 {
+    float: left;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+html#mohsai nav ul li {
+    float: right;
+    padding-top: 21px;
+    margin-left: 19px;
+    font-size: 22px;
+    list-style-type: none;
+}
+
+html#mohsai nav ul li a:hover {
+    color: black;
+    font-size: 30px;
+}    
